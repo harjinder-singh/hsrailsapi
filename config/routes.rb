@@ -4,4 +4,7 @@ Rails.application.routes.draw do
       resources :blogs
     end
   end
+
+  post 'authenticate', to: 'authentication#authenticate'
+  
 end
