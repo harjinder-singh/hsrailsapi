@@ -25,4 +25,8 @@ test:
 
 production:
   <<: *default
-  database: api_production
+  database: ddg92hiugqioas
+  username: xcxcxmfbsdwczd
+  password: 41ce43a578955b0c44027b9342f8db13acee558913b25b6256707ed2fce7a443
+  host: ec2-174-129-253-180.compute-1.amazonaws.com
+  port: 5432
